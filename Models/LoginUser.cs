@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LoginReg.Models
+namespace WeddingPlanner.Models
 {
     public class LoginUser
     {
