@@ -43,9 +43,7 @@ namespace WeddingPlanner.Models
     {
         [Key]
         public int RSVPId {get;set;}
-        [Required]
         public int WeddingId {get;set;}
-        [Required]
         public int UserId {get;set;}
         public Users Users {get;set;}
         public Wedding Wedding {get;set;}
