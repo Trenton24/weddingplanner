@@ -10,8 +10,6 @@ using Microsoft.Extensions.Logging;
 
 namespace WeddingPlanner
 {
-
-    //test
     public class Program
     {
         public static void Main(string[] args)

@@ -1,0 +1,51 @@
+﻿@model WeddingPlanner.Models.Wedding
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+    <h4>Wedding</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Wedder1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Wedder1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Wedder2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Wedder2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.WeddingId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>
