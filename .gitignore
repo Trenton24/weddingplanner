@@ -2,3 +2,6 @@
 /.vs
 /.db
 appsetting.json
+/obj
+/bin
+
